@@ -1,0 +1,38 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+html, body {
+  margin: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+  height: 70px;
+  background-color: blue;
+  padding: 0 20px;
+}
+
+#add {
+  height: 50px;
+  width: 100px;
+  margin: 10px;
+  color: white;
+  background: transparent;
+  border: 1px solid white;
+}
+#add:hover{
+  background: white;
+  color: black;
+}
+#nv-in {
+  color: white;
+  font-size: 30px;
+}
+.tab{
+  position: relative;
+  margin-top: 50px;
+}
